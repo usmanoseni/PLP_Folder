@@ -1,6 +1,10 @@
 # declaration and initialization of a list
 # This code initializes a list with four integer elements.
-my_list = [10, 20, 30, 40]
+my_list = []
+my_list.append(10)  # Appends 10 to the list
+my_list.append(20)  # Appends 20 to the list
+my_list.append(30)  # Appends 30 to the list
+my_list.append(40)  # Appends 40 to the list
 print("The initial list is: ", my_list)
 
 # code to insert an element at a specific index
